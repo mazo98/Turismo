@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            width: calc(33.33% - 20px);
+            margin: 20px 0;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #ddd;
+        }
+
+        .gallery-item-info {
+            padding: 10px;
+        }
+
+        @media only screen and (max-width: 900px) {
+            .gallery-item {
+                width: calc(50% - 20px);
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .gallery-item {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+    <title>Galería de Viajes</title>
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Viajes</h1>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Viajes.html">Viajes</a></li>
+                    <li><a href="consectodeviajes.html">Consecto de Viajes</a></li>
+                    <li><a href="galery.html">Galeria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+    <div class="gallery">
+        <!-- Photo 1 -->
+        <div class="gallery-item">
+            <img src="IMAGENES1/asia.jpeg" alt="Travel Photo 1">
+            <div class="gallery-item-info">
+                <h3>Destino 1</h3>
+                <img src="IMAGENES1/asia1.jpeg" alt="#">
+            </div>
+        </div>
+    
+        <div class="gallery">
+            <!-- Photo 2 -->
+            <div class="gallery-item">
+                <img src="IMAGENES1/canada.jpg" alt="Travel Photo 2">
+                <div class="gallery-item-info">
+                    <h3>Destino 2</h3>
+                    <img src="IMAGENES1/canada1.jpeg" alt="#">
+                </div>
+            </div>
+    
+            <div class="gallery">
+                <!-- Photo 3 -->
+                <div class="gallery-item">
+                    <img src="IMAGENES1/chile.jpeg" alt="Travel Photo 3">
+                    <div class="gallery-item-info">
+                        <h3>Destino 3</h3>
+                        <img src="IMAGENES1/chile1.jpeg" alt="#">
+                    </div>
+                </div>
+                <div class="gallery">
+                    <!-- Photo 4 -->
+                    <div class="gallery-item">
+                        <img src="IMAGENES1/colombia.jpeg" alt="Travel Photo 4">
+                        <div class="gallery-item-info">
+                            <h3>Destino 4</h3>
+                            <img src="IMAGENES1/colombia1.jpeg" alt="#">
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <!-- Photo 5 -->
+                        <div class="gallery-item">
+                            <img src="IMAGENES1/panama.jpeg" alt="Travel Photo 5">
+                            <div class="gallery-item-info">
+                                <h3>Destino 5</h3>
+                                <img src="IMAGENES1/panama1.jpeg" alt="#">
+                            </div>
+                        </div>
+                        <div class="gallery">
+                            <!-- Photo 6 -->
+                            <div class="gallery-item">
+                                <img src="IMAGENES1/ecuador.jpeg" alt="Travel Photo 6">
+                                <div class="gallery-item-info">
+                                    <h3>Destino 6</h3>
+                                    <img src="IMAGENES1/ecuador1.jpeg" alt="#">
+                                </div>
+                            </div>
+                            <div class="gallery">
+                                <!-- Photo 7 -->
+                                <div class="gallery-item">
+                                    <img src="IMAGENES1/estadosunidos.jpeg" alt="Travel Photo 7">
+                                    <div class="gallery-item-info">
+                                        <h3>Destino 7</h3>
+                                        <img src="IMAGENES1/estadosunidos1.jpeg" alt="#">
+                                    </div>
+                                </div>
+                                <div class="gallery">
+                                    <!-- Photo 8 -->
+                                    <div class="gallery-item">
+                                        <img src="IMAGENES1/mexico.jpeg" alt="Travel Photo 8">
+                                        <div class="gallery-item-info">
+                                            <h3>Destino 8</h3>
+                                            <img src="IMAGENES1/mexico1.jpeg" alt="#">
+                                        </div>
+                                    </div>
+                                    <div class="gallery">
+                                        <!-- Photo 9 -->
+                                        <div class="gallery-item">
+                                            <img src="IMAGENES1/brazil.jpeg" alt="Travel Photo 9">
+                                            <div class="gallery-item-info">
+                                                <h3>Destino 9</h3>
+                                                <img src="IMAGENES1/brazil1.jpeg" alt="#">
+                                            </div>
+                                        </div>
+        <!-- Photo 10 -->
+        <div class="gallery-item">
+            <img src="IMAGENES1/croacia.jpeg" alt="Travel Photo 10">
+            <div class="gallery-item-info">
+                <h3>Destino 10</h3>
+                <img src="IMAGENES1/croasia1.jpeg" alt="#">
+            </div>
+        </div>
+    </div>
+    
+    </body>
+    </html>

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo de enlaces en estado hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Consulta de medios para dispositivos con un ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    nav li {
+        margin-right: 10px; /* Reducción del margen entre elementos de la lista */
+    }
+
+    .image-gallery img {
+        width: 100%; /* Imágenes ocupan el ancho completo del contenedor */
+        max-width: none; /* Elimina la limitación de ancho máximo */
+        margin-bottom: 10px; /* Reducción del espacio entre las imágenes en dispositivos pequeños */
+    }
+}
